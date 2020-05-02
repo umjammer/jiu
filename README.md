@@ -1,3 +1,4 @@
+[![Release](https://jitpack.io/v/umjammer/jiu.svg)](https://jitpack.io/#umjammer/jiu)
  [![Parent](https://img.shields.io/badge/Parent-vavi--image--sandbox-pink)](https://github.com/umjammer/vavi-image-sandbox)
  
 # JIU - Java Imaging Utilities - README file
@@ -39,21 +40,21 @@ single image file.
 
 In order to test jiuawt with your own image files, start the jiuawt demo
 program that is part of the library. You must have a Java Runtime Environment
-version 1.1 or higher installed (typing "java -version" on the command 
+version 1.1 or higher installed (typing `java -version` on the command 
 line should tell you whether you have one and which version it is). Once 
 you have downloaded and decompressed the JIU distribution archive (the
 .tar.bz2 file), go to the directory where you have decompressed it.
-That directory will contain jiu.jar. Start it
+That directory will contain `jiu.jar`. Start it
 
-* by typing "run-jiuawt.bat" (under Windows only),
-* by typing "java -jar jiu.jar",
-* by double-clicking on jiu.jar in a file manager or
-* by typing "java -cp jiu.jar net.sourceforge.jiu.apps.jiuawt".
+* by typing `run-jiuawt.bat` (under Windows only),
+* by typing `java -jar jiu.jar`,
+* by double-clicking on `jiu.jar` in a file manager or
+* by typing `java -cp jiu.jar net.sourceforge.jiu.apps.jiuawt`.
 
 jiuawt requires Java 1.1+, so it should run with most virtual machines
 in use. Note that by default Java VMs only get to use a certain amount
 of memory. With images one easily reaches that limit. Provide the VM
-with more memory by starting it with -mx<MB>m as parameter between java and
--cp (or -jar). So java -mx256m -jar jiu.jar would start the program and
+with more memory by starting it with `-mx<MB>m` as parameter between `java` and
+`-cp` (or `-jar`). So `java -mx256m -jar jiu.jar` would start the program and
 give 256 MB to it. You may want to adjust that value according to your
 needs.
